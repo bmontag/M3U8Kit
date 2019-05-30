@@ -186,10 +186,10 @@
 		9D79F1461EF784E500D16AFD /* M3U8SegmentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8SegmentInfo.m; sourceTree = "<group>"; };
 		9D79F1471EF784E500D16AFD /* M3U8SegmentInfoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8SegmentInfoList.h; sourceTree = "<group>"; };
 		9D79F1481EF784E500D16AFD /* M3U8SegmentInfoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3U8SegmentInfoList.m; sourceTree = "<group>"; };
-		F4E80859229F7A9B00469FDC /* M3U8Kit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M3U8Kit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E80859229F7A9B00469FDC /* M3U8Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M3U8Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E8085B229F7A9B00469FDC /* M3U8Kit_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3U8Kit_tvOS.h; sourceTree = "<group>"; };
 		F4E8085C229F7A9B00469FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4E80867229F7ACA00469FDC /* M3U8KitDynamic_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M3U8KitDynamic_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4E80867229F7ACA00469FDC /* M3U8KitDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M3U8KitDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E80869229F7ACA00469FDC /* M3U8KitDynamic_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3U8KitDynamic_tvOS.h; sourceTree = "<group>"; };
 		F4E8086A229F7ACA00469FDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F97F1AAD2204979A006F5717 /* M3U8ExtXSessionKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3U8ExtXSessionKey.h; sourceTree = "<group>"; };
@@ -267,8 +267,8 @@
 				9D05821A18E52DF500A12776 /* M3U8Kit.framework */,
 				9D79F1251EF77CE400D16AFD /* M3U8KitDynamic.framework */,
 				01B38E2920EA2F8A00AC6443 /* M3U8KitTests.xctest */,
-				F4E80859229F7A9B00469FDC /* M3U8Kit_tvOS.framework */,
-				F4E80867229F7ACA00469FDC /* M3U8KitDynamic_tvOS.framework */,
+				F4E80859229F7A9B00469FDC /* M3U8Kit.framework */,
+				F4E80867229F7ACA00469FDC /* M3U8KitDynamic.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -540,7 +540,7 @@
 			);
 			name = "M3U8Kit-tvOS";
 			productName = "M3U8Kit-tvOS";
-			productReference = F4E80859229F7A9B00469FDC /* M3U8Kit_tvOS.framework */;
+			productReference = F4E80859229F7A9B00469FDC /* M3U8Kit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F4E80866229F7ACA00469FDC /* M3U8KitDynamic-tvOS */ = {
@@ -558,7 +558,7 @@
 			);
 			name = "M3U8KitDynamic-tvOS";
 			productName = "M3U8KitDynamic-tvOS";
-			productReference = F4E80867229F7ACA00469FDC /* M3U8KitDynamic_tvOS.framework */;
+			productReference = F4E80867229F7ACA00469FDC /* M3U8KitDynamic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1054,7 +1054,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TM.M3U8Kit-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = M3U8Kit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1105,7 +1105,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TM.M3U8Kit-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = M3U8Kit;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1155,7 +1155,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TM.M3U8KitDynamic-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = M3U8KitDynamic;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1206,7 +1206,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TM.M3U8KitDynamic-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = M3U8KitDynamic;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
