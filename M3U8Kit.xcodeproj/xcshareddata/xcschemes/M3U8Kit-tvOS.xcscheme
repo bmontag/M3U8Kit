@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F4E80858229F7A9B00469FDC"
-               BuildableName = "M3U8Kit_tvOS.framework"
+               BuildableName = "M3U8Kit.framework"
                BlueprintName = "M3U8Kit-tvOS"
                ReferencedContainer = "container:M3U8Kit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4E80858229F7A9B00469FDC"
-            BuildableName = "M3U8Kit_tvOS.framework"
+            BuildableName = "M3U8Kit.framework"
             BlueprintName = "M3U8Kit-tvOS"
             ReferencedContainer = "container:M3U8Kit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F4E80858229F7A9B00469FDC"
-            BuildableName = "M3U8Kit_tvOS.framework"
+            BuildableName = "M3U8Kit.framework"
             BlueprintName = "M3U8Kit-tvOS"
             ReferencedContainer = "container:M3U8Kit.xcodeproj">
          </BuildableReference>
